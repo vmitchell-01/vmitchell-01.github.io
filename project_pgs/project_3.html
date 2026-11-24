@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../style_sheet/styles.css">
+    <title>Project 3 | Vincent M.</title>
+</head>
+  
+<body>
+
+  <header>
+
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../about_pg.html">About</a>
+      <a href="../project_pg_main.html">Projects</a>
+      <a href="../certs_pg.html">Certifications</a>
+    </nav>
+
+  </header>
+
+  <main>
+    <section class="container" id="project_description">
+      <h3>Project 3 | Grinder Remote Monitoring System (GRMS)</h3>
+      <h4>Project team member</h4>
+      <p>Unfortunately, I don't have any cool photos to display on this project. But, I'll still tell you all about it!</p>
+
+      <h4>Overview</h4>
+      <p>
+        The Grinder Remote Monitoring System was built around the idea of using IoT to monitor the average uptime of our tungsten shot grinders at Tungsten Parts Wyoming.
+        This project utilized an IoT device that wired into the grinder's power switch. The device would then send a signal on the local network to a Raspberry Pi that was 
+        utilizing a Python script, SQL, and a web based API to store the data. This webservice could be accessed remotely over the internet so our management team could gather
+        necessary reports on what machines caused the most issues.
+      </p>
+
+      <h4>Features</h4>
+      <ul class="project_features">
+        <li>A Wi-Fi based IoT sensor directly connecting the Local Network to the Grinder's Power.</li>
+        <li>A Python code that deciphered an MQTT message with JSON style packets of data and stored them in a database.</li>
+        <li>A separate Python code would upload the databased information to the Web API for data visualization.</li>
+      </ul>
+    </section>
+  </main>
+  
+  <footer>
+
+    <nav>
+      <div>
+        <a href="https://www.linkedin.com/in/vincent-mitchell-01/" target="_blank">LinkedIn</a>
+        <a>mitcv99@gmail.com</a>
+        <a href="https://github.com/vmitchell-01" target="_blank">GitHub</a>
+      </div>
+    </nav>
+
+  </footer>
+  
+</body>
+</html>

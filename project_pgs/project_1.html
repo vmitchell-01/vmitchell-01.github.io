@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../style_sheet/styles.css">
+    <title>Project 1 | Vincent M.</title>
+</head>
+<body>
+
+  <header>
+
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../about_pg.html">About</a>
+      <a href="../project_pg_main.html">Projects</a>
+      <a href="../certs_pg.html">Certifications</a>
+    </nav>
+
+  </header>
+
+  <main class="project_pg">
+
+    <section class="container" id="project_description">
+      <h3>Project 1 | Home Security System</h3>
+      <h4>Student Developer</h4>
+      
+      <h4>Overview</h4>
+      <p>This project uses a combination of sensors, LEDs, a Piezo buzzer, and an Arduino MEGA 2560 microcontroller to create a simple home security system.
+      The sensors detect the distance that an object is from the system and will indicate with a series of LEDs when the object is within a certain range.
+      A blue LED will indicate when a circuit is broken indicating forced-entry on the system.</p>
+      
+      <h4>Features</h4>
+      <ul class="project_features">
+        <li>Distance detection using ultrasonic sensor</li>
+        <li>Red, Yellow and Green LEDs to indicate the distance detection</li>
+        <li>Piezo buzzer for audible alert of system trigger</li>
+        <li>A photo-resistor to detect light levels</li>
+      </ul>
+      
+      <h4>Software Development</h4>
+      <p>The software for this project is developed using the Arduino IDE. A programming loop was implemented to output a repeating message to the serial monitor for the microcontroller.
+      As the status is normal, the system operates in a passive state. If a person enters the view of the ultrasonic sensor, the system begins to send repeated messages of "Alert! Possible Intruder."
+      to the serial monitor. If the blue wire is severed, the system will send messages indicating the "Door is open. Intruder Alert!".</p>
+      
+    </section>
+
+    <section class="container">
+      <h3>Project Images</h3>
+      <img src="project_1_img_src/home_security_tinkercad.png" alt="Home Security System Tinkercad Design" class="prj_pic">
+      <img src="project_1_img_src/home_security_program_output.png" alt="Home Security System Program Output" class="prj_pic">
+      <img src="project_1_img_src/home_security_door_open.png" alt="Program Output: Door Open" class="prj_pic">
+      <img src="project_1_img_src/home_security_prototype.jpg" alt="Home Security System Prototype" class="prj_pic">
+    </section>
+    
+  </main>
+
+  <footer>
+
+    <nav>
+      <div>
+        <a href="https://www.linkedin.com/in/vincent-mitchell-01/" target="_blank">LinkedIn</a>
+        <a>mitcv99@gmail.com</a>
+        <a href="https://github.com/vmitchell-01" target="_blank">GitHub</a>
+      </div>
+    </nav>
+
+  </footer>
+
+</body>
+</html>

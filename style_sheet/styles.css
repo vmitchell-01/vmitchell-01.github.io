@@ -1,0 +1,166 @@
+﻿* {
+
+	/*font settings applied to all elements*/
+	font-family: Courier New, monospace, sans-serif;
+	color: #EEF2F5;
+
+}
+
+.project_btn {
+	/*settings for project buttons on projects_pg.html*/
+	background-color: #D4A441;
+	color: #EEF2F5;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 16px;
+	transition: background-color 0.3s ease;
+}
+
+
+.about_pg, .project_pg {
+	/*settings for about page*/
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.oval-photo {
+	/*settings for about page photo*/
+	border-radius: 50%;
+	object-fit: cover;
+	margin-left: 10rem;
+	margin-top: 4rem;
+
+	border: 3px solid #D4A441;
+	box-shadow: 0 6px 18px rgba(43, 58, 85, 0.15); 
+
+	position: relative;
+
+	max-width: 750px;
+
+}
+
+.prj_pic {
+	/*settings for project images on project_1.html*/
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px;
+	margin-top: 1rem;
+}
+
+.project_features {
+	/*settings for project features on project_1.html*/
+	text-align: left;
+}
+
+#project_description {
+	/*settings for project description on project_1.html*/
+	position: sticky;
+	top: 100px;
+	align-self: flex-start;
+}
+
+body {
+
+	/*background image settings*/
+	background-image: url("../img_src/teton_background.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	/*padding and margin settings for body*/
+	padding-top: 60px;
+	padding-bottom: 50px;
+
+}
+
+#profile_photo {
+
+	/*settings for profile photo on home_pg.html*/
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+
+}
+
+.container {
+	
+	/*background settings for container cards*/
+	background-color: #2F4A3AE6;
+	border: 3px solid #9AA58A;
+	border-radius: 16px;
+	box-shadow: 0 6px 18px rgba(43, 58, 85, 0.15);
+
+	min-width: 300px;
+	max-width: 500px;
+	padding: 1.5rem 2rem;
+
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	
+	text-align: center;
+
+	margin: 5rem auto;
+
+}
+
+.container h3 {
+	margin-bottom: 0.5rem;
+}
+
+.container h3 + p {
+	margin-top: 0;
+}
+
+#profile_card {
+	/*exclusive settings for profile card on home_pg.html*/
+	display: flex;
+	align-items: right;
+	flex-direction: row;
+}
+
+header nav a:link, header nav a:visited, footer nav a:link, footer nav a:visited {
+	/*link settings for header and footer*/
+	color: #EEF2F5;
+	text-decoration: none;
+}
+
+header {
+	border-bottom: 3px solid #9AA58A;
+	
+	top: 0;
+}
+
+footer {
+	border-top: 3px solid #9AA58A;
+	
+	bottom: 0;
+}
+
+header, footer {
+
+	/*background settings for header and footer*/
+	background-color:#2F4A3A;
+	padding: 25px;
+
+	/*position settings for header and footer*/
+	position: fixed;
+	left: 0;
+	width: 100%;
+
+	display: flex;
+	justify-content: flex-end;
+	box-sizing: border-box;
+)
+
+header nav a:link, header nav a:visited, footer nav a:link, footer nav a:visited {
+	/*link settings for header and footer*/
+	color: #EEF2F5;
+	text-decoration: none;
+}
